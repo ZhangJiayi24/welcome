@@ -82,7 +82,6 @@ nav:
       - 常用网站: toolkit/websites.md
       - 联系方式: toolkit/contacts.md
       - 黑话: toolkit/glossary.md
-      - 常见问题: toolkit/faq.md
   - 入学准备:
       - preparation/index.md
       - 新生时间线: preparation/timeline.md
@@ -90,19 +89,19 @@ nav:
       - 缴费与材料: preparation/documents.md
       - 行李清单: preparation/checklist.md
       - 安全与防诈骗: preparation/safety.md
-  - 抵达宁波:
-      - arrival/index.md
-      - 机场与车站: arrival/stations.md
-      - 前往校园: arrival/to-campus.md
-      - 抵达当天: arrival/first-day.md
-  - 报到与迎新周:
-      - registration/index.md
+  - 报到:
+      - 抵达宁波: arrival/index.md
       - 报到流程: registration/process.md
       - 校园卡与宿舍入住: registration/campus-card.md
-      - Welcome Week: registration/welcome-week.md
+      - 新生防骗: registration/anti-fraud.md
+  - 军训:
+      - registration/military-training.md
+  - 迎新周 / iWeek:
+      - registration/welcome-week.md
   - 学习与学术:
       - study/index.md
       - 教学系统: study/systems.md
+      - 邮件礼仪: study/email-etiquette.md
       - Module 与学分: study/modules.md
       - 考核与考试: study/assessment.md
       - 学术诚信: study/integrity.md
