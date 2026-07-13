@@ -1,0 +1,16 @@
+{# Repository link with a guide version displayed alongside GitHub facts. #}
+<a href="{{ config.repo_url }}" title="{{ lang.t('source') }}" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    {% set icon = config.theme.icon.repo or "fontawesome/brands/git-alt" %}
+    {% include ".icons/" ~ icon ~ ".svg" %}
+  </div>
+  <div class="md-source__repository">
+    <span class="md-source__name">{{ config.repo_name }}</span>
+    <span class="guide-version" title="当前指引版本">
+      <span class="guide-version__icon md-icon">
+        {% include ".icons/material/tag-outline.svg" %}
+      </span>
+      v{{ config.extra.site_version }}
+    </span>
+  </div>
+</a>

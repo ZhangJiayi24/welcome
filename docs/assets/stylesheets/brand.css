@@ -126,6 +126,7 @@ input {
   height: 52rem;
 }
 
+
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
 [data-md-color-scheme="slate"] .md-typeset h3 {
@@ -157,4 +158,26 @@ input {
     height: 65vh;
   }
 
+}
+/* Repository metadata in the header */
+.md-source__name {
+  display: block;
+}
+
+.guide-version {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.15rem;
+  margin-right: 0.35rem;
+  vertical-align: middle;
+}
+
+.guide-version__icon {
+  display: inline-flex;
+  height: 0.85rem;
+  width: 0.85rem;
+}
+
+.guide-version__icon svg {
+  fill: currentcolor;
 }

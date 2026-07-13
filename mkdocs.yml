@@ -1,6 +1,8 @@
 site_name: 2026年 UNNC 本科新生指引
 site_description: 由学生维护的非官方 UNNC 本科新生指南框架
 site_url: https://welcome.unncers.com/
+repo_url: https://github.com/ZhangJiayi24/welcome
+repo_name: ZhangJiayi24/welcome
 copyright: >-
   Copyright &copy; 2026&ndash;present
   <a href="https://github.com/ZhangJiayi24/welcome">新生指引编委会</a><br>
@@ -8,6 +10,7 @@ copyright: >-
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
   logo: https://www.nottingham.ac.uk/Brand/LegacyAssets/images-multimedia/2022/Logos/BrandEvolution-WhiteonNottinghamBlue-Cropped-450x173.png
   favicon: https://www.nottingham.edu.cn/favicon.ico
@@ -66,10 +69,7 @@ extra_css:
 
 extra:
   generator: false
-  alternate:
-    - name: 中文
-      link: /
-      lang: zh
+  site_version: 2026.0.1
 
 nav:
   - 首页:
@@ -81,7 +81,7 @@ nav:
       - 校园地图: toolkit/map.md
       - 常用网站: toolkit/websites.md
       - 联系方式: toolkit/contacts.md
-      - 缩写与术语: toolkit/glossary.md
+      - 黑话: toolkit/glossary.md
       - 常见问题: toolkit/faq.md
   - 入学准备:
       - preparation/index.md
