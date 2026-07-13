@@ -1,7 +1,10 @@
-site_name: 2026年 UNNC 本科新生指南
+site_name: 2026年 UNNC 本科新生指引
 site_description: 由学生维护的非官方 UNNC 本科新生指南框架
 site_url: https://welcome.unncers.com/
-copyright: 学生维护的非官方指南 · 正式信息请以学校最新通知为准
+copyright: >-
+  Copyright &copy; 2026&ndash;present
+  <a href="https://github.com/ZhangJiayi24/welcome">新生指引编委会</a><br>
+  Made with <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a>
 
 theme:
   name: material
@@ -72,6 +75,14 @@ nav:
   - 首页:
       - 欢迎: index.md
       - 重要提示: important.md
+      - 前言: preface.md
+  - 常用信息:
+      - 校历: toolkit/calendar.md
+      - 校园地图: toolkit/map.md
+      - 常用网站: toolkit/websites.md
+      - 联系方式: toolkit/contacts.md
+      - 缩写与术语: toolkit/glossary.md
+      - 常见问题: toolkit/faq.md
   - 入学准备:
       - preparation/index.md
       - 新生时间线: preparation/timeline.md
@@ -115,14 +126,6 @@ nav:
       - 校园周边: ningbo/nearby.md
       - 公交与地铁: ningbo/transport.md
       - 购物与支付: ningbo/shopping-payment.md
-  - 工具箱:
-      - toolkit/index.md
-      - 校园地图: toolkit/map.md
-      - 校历: toolkit/calendar.md
-      - 常用网站: toolkit/websites.md
-      - 联系方式: toolkit/contacts.md
-      - 缩写与术语: toolkit/glossary.md
-      - 常见问题: toolkit/faq.md
   - 关于:
       - about/index.md
       - 参与贡献: about/contributing.md

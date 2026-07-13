@@ -45,6 +45,87 @@ input {
   letter-spacing: -0.015em;
 }
 
+.md-typeset h2 {
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset h2 + p,
+.md-typeset h2 + table {
+  margin-top: 0;
+}
+
+.home-alert {
+  color: var(--jubilee-red);
+  font-weight: 550;
+}
+
+[data-md-color-scheme="slate"] .home-alert {
+  color: #ff8a98;
+}
+
+.md-typeset .important-link {
+  color: #4386b5;
+  text-decoration: none;
+}
+
+.md-typeset .important-link:hover {
+  color: #28668f;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .important-link {
+  color: #8ec5ea;
+}
+
+.md-typeset .resource-link {
+  color: #4386b5;
+}
+
+.md-typeset .resource-link:hover {
+  color: #28668f;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .resource-link {
+  color: #8ec5ea;
+}
+
+.md-typeset .faq-link {
+  color: #d97706;
+  font-weight: 650;
+}
+
+.md-typeset .faq-link:hover {
+  color: #a94f00;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .faq-link {
+  color: #f6ad55;
+}
+
+.md-typeset .sout {
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.1em;
+}
+
+.preface-signature {
+  margin-top: 2rem;
+  text-align: right;
+  line-height: 1.8;
+}
+
+.pdf-embed {
+  display: block;
+  width: 100%;
+  height: 72rem;
+  margin-top: 1rem;
+  border: 1px solid var(--nottingham-blue-20);
+  border-radius: 0.2rem;
+  background: #ffffff;
+}
+
+.pdf-embed--landscape {
+  height: 52rem;
+}
+
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
 [data-md-color-scheme="slate"] .md-typeset h3 {
@@ -66,6 +147,14 @@ input {
 @media screen and (max-width: 44.984375em) {
   .md-header__button.md-logo img {
     height: 1.7rem;
+  }
+
+  .pdf-embed {
+    height: 75vh;
+  }
+
+  .pdf-embed--landscape {
+    height: 65vh;
   }
 
 }
