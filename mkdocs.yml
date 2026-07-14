@@ -98,13 +98,7 @@ nav:
   - 迎新周 / iWeek:
       - registration/welcome-week.md
   - 学习与学术:
-      - study/index.md
-      - 教学系统: study/systems.md
-      - 邮件礼仪: study/email-etiquette.md
-      - Module 与学分: study/modules.md
-      - 考核与考试: study/assessment.md
-      - 学术诚信: study/integrity.md
-      - 图书馆与学习空间: study/library.md
+      - 基本概念: study/basics.md
   - 选课与专业:
       - courses/index.md
       - 选课流程: courses/selection.md
