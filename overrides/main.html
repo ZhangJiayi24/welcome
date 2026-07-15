@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block scripts %}
+  {{ super() }}
+  <!-- Cloudflare Web Analytics -->
+  <script
+    type="module"
+    src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token":"a963cab7763f41969058408955c5d5e4"}'
+  ></script>
+  <!-- End Cloudflare Web Analytics -->
+{% endblock %}
