@@ -126,6 +126,16 @@ input {
   height: 52rem;
 }
 
+.notion-embed {
+  display: block;
+  width: 100%;
+  height: 37.5rem;
+  margin: 1rem 0;
+  border: 1px solid var(--nottingham-blue-20);
+  border-radius: 0.35rem;
+  background: #ffffff;
+}
+
 
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
@@ -195,6 +205,10 @@ input {
 
   .pdf-embed--landscape {
     height: 65vh;
+  }
+
+  .notion-embed {
+    height: 70vh;
   }
 
 }

@@ -106,6 +106,8 @@ nav:
   - 学习与学术:
       - 基本概念: study/basics.md
       - 培养方案: study/modules.md
+      - 专业内容: study/majors.md
+      - 转专业政策: study/transfer.md
   - 选课与专业:
       - courses/index.md
       - 选课流程: courses/selection.md
