@@ -58,6 +58,8 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.details
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
@@ -66,6 +68,10 @@ markdown_extensions:
 
 extra_css:
   - assets/stylesheets/brand.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
   generator: false
