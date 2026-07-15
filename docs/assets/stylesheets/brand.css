@@ -140,9 +140,48 @@ input {
   background: var(--portland-stone);
 }
 
+.degree-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  gap: 1rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.degree-card {
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--nottingham-blue-20);
+  border-radius: 0.35rem;
+  background: #ffffff;
+}
+
+.md-typeset .degree-card h4 {
+  margin: 0 0 0.65rem;
+  color: var(--nottingham-blue);
+  font-size: 1rem;
+}
+
+.md-typeset .degree-card ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.md-typeset .degree-card li {
+  margin: 0.25rem 0;
+}
+
 [data-md-color-scheme="slate"] .placeholder,
 [data-md-color-scheme="slate"] .md-typeset .admonition {
   background: #1d3144;
+}
+
+[data-md-color-scheme="slate"] .degree-card {
+  border-color: #40566a;
+  background: #1d3144;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .degree-card h4 {
+  color: #ffffff;
 }
 
 @media screen and (max-width: 44.984375em) {

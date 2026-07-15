@@ -105,6 +105,7 @@ nav:
       - registration/welcome-week.md
   - 学习与学术:
       - 基本概念: study/basics.md
+      - 培养方案: study/modules.md
   - 选课与专业:
       - courses/index.md
       - 选课流程: courses/selection.md
