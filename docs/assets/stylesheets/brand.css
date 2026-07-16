@@ -126,17 +126,6 @@ input {
   height: 52rem;
 }
 
-.notion-embed {
-  display: block;
-  width: 100%;
-  height: 37.5rem;
-  margin: 1rem 0;
-  border: 1px solid var(--nottingham-blue-20);
-  border-radius: 0.35rem;
-  background: #ffffff;
-}
-
-
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
 [data-md-color-scheme="slate"] .md-typeset h3 {
@@ -163,6 +152,32 @@ input {
   border: 1px solid var(--nottingham-blue-20);
   border-radius: 0.35rem;
   background: #ffffff;
+}
+
+.pe-test-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 15rem));
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.md-typeset .pe-test-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.md-typeset .pe-test-grid img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--nottingham-blue-20);
+}
+
+.md-typeset .pe-test-grid figcaption {
+  margin-top: 0.4rem;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .md-typeset .degree-card h4 {
@@ -205,10 +220,6 @@ input {
 
   .pdf-embed--landscape {
     height: 65vh;
-  }
-
-  .notion-embed {
-    height: 70vh;
   }
 
 }

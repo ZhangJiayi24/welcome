@@ -74,4 +74,4 @@ SEED 以商学院学生为主要服务对象，但部分活动或奖学金可能
 
 这些项目的开放年份、对象和评选条件并不完全相同，不能把项目汇总页视为当年的申请清单。申请前应查看基金会或负责部门发布的最新通知。
 
-[前往奖助](../funding/index.md){ .resource-link }
+[前往奖助](../funding/scholarships.md){ .resource-link }

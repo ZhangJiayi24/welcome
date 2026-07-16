@@ -157,13 +157,20 @@ EAP 课程指语言课，包括：
 
 大一、大二体测按照全国普通高校学生体质健康测试标准评分。男女生的测试项目和评分要求不同；表中同时列出了各项目占比、BMI 范围及部分项目的加分标准。点击图片可查看原图。
 
-=== "男生"
-
-    [![全国普通高校体质健康测试评分表（男生）](../assets/images/pe-test-male.jpg)](../assets/images/pe-test-male.jpg)
-
-=== "女生"
-
-    [![全国普通高校体质健康测试评分表（女生）](../assets/images/pe-test-female.jpg)](../assets/images/pe-test-female.jpg)
+<div class="pe-test-grid">
+  <figure>
+    <a href="../../assets/images/pe-test-male.jpg">
+      <img src="../../assets/images/pe-test-male.jpg" alt="全国普通高校体质健康测试评分表（男生）">
+    </a>
+    <figcaption>男生</figcaption>
+  </figure>
+  <figure>
+    <a href="../../assets/images/pe-test-female.jpg">
+      <img src="../../assets/images/pe-test-female.jpg" alt="全国普通高校体质健康测试评分表（女生）">
+    </a>
+    <figcaption>女生</figcaption>
+  </figure>
+</div>
 
 ### 不及格、补考与重修
 
