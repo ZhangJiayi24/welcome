@@ -108,6 +108,9 @@ nav:
       - 培养方案: study/modules.md
       - 专业内容: study/majors.md
       - 转专业政策: study/transfer.md
+      - 科研与素质教育: study/development.md
+  - 奖助:
+      - funding/index.md
   - 选课与专业:
       - courses/index.md
       - 选课流程: courses/selection.md
