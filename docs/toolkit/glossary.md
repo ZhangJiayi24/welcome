@@ -63,7 +63,7 @@
 | ↳ 环境工程 | Environmental Engineering | EE |
 | ↳ 化学工程与工艺 | Chemical Engineering | ChE |
 
-## 校园地点
+## 校园地点 { #campus-places }
 
 ### 教学、行政与公共建筑
 
@@ -80,7 +80,7 @@
 | Innovation and Enterprise Building | IEB | 国际创新创业大楼。部分老师的 Office Hour、Writing Lab 和部分自习空间在这里。 |
 | Sir David and Lady Susan Greenaway Building | IAMET | 海洋楼，有部分自习空间、四楼机房和部分教室。 |
 
-### 觅食地点
+### 觅食地点 { #campus-food }
 
 | 名称 | 常用叫法 | 说明 |
 | --- | --- | --- |

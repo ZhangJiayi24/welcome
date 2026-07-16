@@ -103,24 +103,19 @@ nav:
       - registration/military-training.md
   - 迎新周 / iWeek:
       - registration/welcome-week.md
-  - 学习与学术:
+  - 学习:
       - 基本概念: study/basics.md
+      - 请假: study/absence.md
       - 培养方案: study/modules.md
       - 专业内容: study/majors.md
       - 学制选择与专业分流: study/pathways.md
       - 转专业政策: study/transfer.md
       - 科研与素质教育: study/development.md
+      - 邮件礼仪: study/email-etiquette.md
   - 奖助:
       - 奖学金: funding/scholarships.md
       - 荣誉称号: funding/honors.md
-  - 选课与专业:
-      - courses/index.md
-      - 选课流程: courses/selection.md
-      - Add Drop: courses/add-drop.md
-      - 专业与转专业: courses/major.md
-      - 交换与海外学习: courses/exchange.md
   - 校园生活:
-      - campus-life/index.md
       - 宿舍: campus-life/accommodation.md
       - 餐饮: campus-life/food.md
       - 网络与 IT: campus-life/it.md
@@ -128,10 +123,8 @@ nav:
       - 医疗与心理支持: campus-life/wellbeing.md
       - 体育与社团: campus-life/sports-societies.md
   - 宁波生活:
-      - ningbo/index.md
       - 校园周边: ningbo/nearby.md
       - 公交与地铁: ningbo/transport.md
-      - 购物与支付: ningbo/shopping-payment.md
   - 关于:
       - about/index.md
       - 参与贡献: about/contributing.md

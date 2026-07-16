@@ -41,6 +41,7 @@
 ### 2026年编委会名单
 
 - 主编、编委、主笔：@齐康
+- “科研与素质教育”部分信息：[@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao
 
 ## 联系方式
 
