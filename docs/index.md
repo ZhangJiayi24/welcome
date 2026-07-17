@@ -40,7 +40,7 @@
 
 ### 2026年编委会名单
 
-- 主编、编委、主笔：@齐康
+- 主编、编委、主笔：<a href="https://zhangjiayi24.github.io/" style="color: #4aa3df;" target="_blank" rel="noopener">@齐康</a>
 - “科研与素质教育”部分信息：[@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao
 
 ## 联系方式

@@ -121,15 +121,9 @@ nav:
       - 宿舍: campus-life/accommodation.md
       - 餐饮: campus-life/food.md
       - 网络与 IT: campus-life/it.md
-      - 快递与交通: campus-life/delivery-transport.md
       - 医疗与心理支持: campus-life/wellbeing.md
       - 体育与社团: campus-life/sports-societies.md
   - 宁波生活:
       - 校园周边: ningbo/nearby.md
       - 公交与地铁: ningbo/transport.md
-  - 关于:
-      - about/index.md
-      - 参与贡献: about/contributing.md
-      - 信息来源与审校: about/sources.md
-      - 更新记录: about/changelog.md
-      - 版权与免责声明: about/legal.md
+  - 后记: about/index.md
