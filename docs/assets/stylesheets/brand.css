@@ -245,3 +245,19 @@ input {
 .guide-version__icon svg {
   fill: currentcolor;
 }
+
+.md-typeset .gpa-calculator-frame {
+  display: block;
+  width: 100%;
+  height: 110rem;
+  margin: 1rem 0 0.65rem;
+  border: 1px solid var(--nottingham-blue-20);
+  border-radius: 0.4rem;
+  background: #f5f7fb;
+}
+
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .gpa-calculator-frame {
+    height: 125rem;
+  }
+}

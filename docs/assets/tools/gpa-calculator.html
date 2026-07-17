@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPA 计算器</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --panel-soft: #f8fafc;
+      --text: #172033;
+      --muted: #647087;
+      --line: #dfe5ef;
+      --line-strong: #cbd5e1;
+      --brand: #1f5f8b;
+      --brand-dark: #174568;
+      --accent: #b23a48;
+      --success: #1b7a55;
+      --warning-bg: #fff8e6;
+      --warning-line: #f1d48b;
+      --shadow: 0 18px 45px rgba(23, 32, 51, 0.08);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(180deg, rgba(31, 95, 139, 0.08), rgba(245, 247, 251, 0) 330px),
+        var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      line-height: 1.5;
+    }
+
+    .page {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 36px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 290px;
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 22px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(30px, 5vw, 52px);
+      line-height: 1.06;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .result-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 20px;
+    }
+
+    .result-label {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+
+    .gpa-value {
+      color: var(--brand);
+      font-size: 56px;
+      font-weight: 750;
+      line-height: 1;
+      letter-spacing: 0;
+    }
+
+    .result-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .pill {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 9px;
+      background: var(--panel-soft);
+      white-space: nowrap;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 340px;
+      gap: 22px;
+      align-items: start;
+    }
+
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-header {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      padding: 18px 20px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .panel-title {
+      margin: 0;
+      font-size: 18px;
+      line-height: 1.25;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    button {
+      min-height: 38px;
+      border: 1px solid transparent;
+      border-radius: 7px;
+      padding: 8px 13px;
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+      transition: background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+    }
+
+    button:hover {
+      transform: translateY(-1px);
+    }
+
+    .primary-btn {
+      background: var(--brand);
+      color: #fff;
+    }
+
+    .primary-btn:hover {
+      background: var(--brand-dark);
+    }
+
+    .ghost-btn {
+      background: #fff;
+      color: var(--text);
+      border-color: var(--line-strong);
+    }
+
+    .ghost-btn:hover {
+      border-color: var(--brand);
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+
+    th {
+      background: var(--panel-soft);
+      color: var(--muted);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    input {
+      width: 100%;
+      min-height: 38px;
+      border: 1px solid var(--line-strong);
+      border-radius: 7px;
+      padding: 8px 10px;
+      color: var(--text);
+      font: inherit;
+      background: #fff;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: var(--brand);
+      box-shadow: 0 0 0 3px rgba(31, 95, 139, 0.14);
+    }
+
+    .course-input {
+      min-width: 160px;
+    }
+
+    .number-input {
+      min-width: 100px;
+    }
+
+    .readonly-cell {
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .contribution {
+      color: var(--success);
+      font-weight: 700;
+    }
+
+    .delete-btn {
+      width: 38px;
+      min-width: 38px;
+      height: 38px;
+      padding: 0;
+      background: #fff;
+      color: var(--accent);
+      border-color: #e7b7bd;
+      font-size: 20px;
+      line-height: 1;
+    }
+
+    .delete-btn:hover {
+      background: #fff2f4;
+    }
+
+    .message {
+      margin: 14px 20px 20px;
+      padding: 12px 14px;
+      border: 1px solid var(--warning-line);
+      border-radius: var(--radius);
+      background: var(--warning-bg);
+      color: #765515;
+      font-size: 14px;
+    }
+
+    .side-stack {
+      display: grid;
+      gap: 16px;
+    }
+
+    .side-section {
+      padding: 18px;
+    }
+
+    .side-section + .side-section {
+      border-top: 1px solid var(--line);
+    }
+
+    .side-heading {
+      margin: 0 0 12px;
+      font-size: 16px;
+    }
+
+    .scale-list {
+      display: grid;
+      gap: 7px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .scale-item {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 10px;
+      align-items: center;
+      padding: 8px 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel-soft);
+      font-size: 14px;
+    }
+
+    .scale-item strong {
+      color: var(--brand);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .formula {
+      display: grid;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .formula-line {
+      margin: 0;
+      overflow-wrap: anywhere;
+    }
+
+    .formula-line strong {
+      color: var(--text);
+    }
+
+    .process-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: 14px;
+    }
+
+    .process-list li {
+      padding: 9px 10px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      background: var(--panel-soft);
+      overflow-wrap: anywhere;
+    }
+
+    .note {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 920px) {
+      .hero,
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .result-card {
+        max-width: none;
+      }
+    }
+
+    @media (max-width: 620px) {
+      .page {
+        width: min(100% - 20px, 1180px);
+        padding: 24px 0 34px;
+      }
+
+      .panel-header {
+        align-items: stretch;
+        flex-direction: column;
+      }
+
+      .toolbar {
+        justify-content: stretch;
+      }
+
+      .toolbar button {
+        flex: 1 1 140px;
+      }
+
+      .gpa-value {
+        font-size: 46px;
+      }
+
+      th,
+      td {
+        padding: 9px 10px;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .table-wrap {
+        overflow-x: visible;
+      }
+
+      table,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      tbody {
+        display: grid;
+        gap: 12px;
+        padding: 12px;
+      }
+
+      tr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px 12px;
+        border: 1px solid var(--line);
+        border-radius: 7px;
+        padding: 10px;
+      }
+
+      td {
+        border-bottom: 0;
+        padding: 0;
+        white-space: normal;
+      }
+
+      td::before {
+        content: attr(data-label);
+        display: block;
+        margin-bottom: 4px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      td:first-child,
+      td:last-child {
+        grid-column: 1 / -1;
+      }
+
+      .course-input,
+      .number-input {
+        min-width: 0;
+      }
+
+      .delete-btn {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="hero" aria-labelledby="page-title">
+      <div>
+        <h1 id="page-title">GPA 计算器</h1>
+        <p class="subtitle">按本指引列出的 Nottingham Ningbo China 英国百分制换算表计算：每门课先由 UK Percentage 分数换成 GPA，再按学分加权平均。</p>
+      </div>
+      <aside class="result-card" aria-live="polite">
+        <div class="result-label">总 GPA</div>
+        <div class="gpa-value" id="finalGpa">0.00</div>
+        <div class="result-meta">
+          <span class="pill" id="validCount">0 门有效课程</span>
+          <span class="pill" id="totalCredits">总学分 0</span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="layout">
+      <div class="panel">
+        <div class="panel-header">
+          <h2 class="panel-title">课程输入</h2>
+          <div class="toolbar">
+            <button type="button" class="primary-btn" id="addCourse">添加课程</button>
+            <button type="button" class="ghost-btn" id="clearCourses">清空</button>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table aria-label="GPA 课程输入表">
+            <thead>
+              <tr>
+                <th scope="col">课程</th>
+                <th scope="col">学分</th>
+                <th scope="col">英国分数</th>
+                <th scope="col">对应 GPA</th>
+                <th scope="col">学分 x GPA</th>
+                <th scope="col">删除</th>
+              </tr>
+            </thead>
+            <tbody id="courseBody"></tbody>
+          </table>
+        </div>
+
+        <div class="message" id="message">请输入至少一门课程的学分和 0-100 英国分数。</div>
+      </div>
+
+      <aside class="panel side-stack">
+        <section class="side-section">
+          <h2 class="side-heading">换算规则</h2>
+          <ul class="scale-list" id="scaleList"></ul>
+          <p class="note">规则按图片表格的英国百分制分段处理：达到某档最低分即使用该档 GPA。</p>
+        </section>
+
+        <section class="side-section">
+          <h2 class="side-heading">计算过程</h2>
+          <div class="formula" id="formula">
+            <p class="formula-line">GPA = Σ(课程学分 x 课程 GPA) / Σ课程学分</p>
+          </div>
+          <ul class="process-list" id="processList"></ul>
+        </section>
+      </aside>
+    </section>
+  </main>
+
+  <template id="courseRowTemplate">
+    <tr>
+      <td data-label="课程">
+        <input class="course-input course-name" type="text" placeholder="课程名称" aria-label="课程名称">
+      </td>
+      <td data-label="学分">
+        <input class="number-input credit-input" type="number" min="0" step="0.5" placeholder="例如 10" aria-label="学分">
+      </td>
+      <td data-label="英国分数">
+        <input class="number-input score-input" type="number" min="0" max="100" step="0.1" placeholder="0-100" aria-label="英国分数">
+      </td>
+      <td class="readonly-cell row-gpa" data-label="对应 GPA">-</td>
+      <td class="readonly-cell contribution" data-label="学分 x GPA">-</td>
+      <td data-label="删除">
+        <button type="button" class="delete-btn" aria-label="删除课程">×</button>
+      </td>
+    </tr>
+  </template>
+
+  <script>
+    const GPA_SCALE = [
+      { min: 70, range: "70 分及以上", letter: "A", gpa: 4.0 },
+      { min: 65, range: "65-69.9 分", letter: "A-", gpa: 3.6 },
+      { min: 60, range: "60-64.9 分", letter: "B+", gpa: 3.3 },
+      { min: 55, range: "55-59.9 分", letter: "B", gpa: 3.0 },
+      { min: 50, range: "50-54.9 分", letter: "B-", gpa: 2.6 },
+      { min: 45, range: "45-49.9 分", letter: "C+", gpa: 2.3 },
+      { min: 43, range: "43-44.9 分", letter: "C", gpa: 2.0 },
+      { min: 40, range: "40-42.9 分", letter: "D", gpa: 1.0 },
+      { min: 0, range: "39 分及以下", letter: "F", gpa: 0.0 }
+    ];
+
+    const courseBody = document.querySelector("#courseBody");
+    const template = document.querySelector("#courseRowTemplate");
+    const finalGpa = document.querySelector("#finalGpa");
+    const validCount = document.querySelector("#validCount");
+    const totalCredits = document.querySelector("#totalCredits");
+    const message = document.querySelector("#message");
+    const formula = document.querySelector("#formula");
+    const processList = document.querySelector("#processList");
+    const scaleList = document.querySelector("#scaleList");
+
+    function formatNumber(value, digits = 2) {
+      return Number(value).toFixed(digits);
+    }
+
+    function parseInput(input) {
+      if (input.value.trim() === "") return null;
+      const value = Number(input.value);
+      return Number.isFinite(value) ? value : null;
+    }
+
+    function scoreToGpa(score) {
+      if (score < 0 || score > 100) return null;
+      return GPA_SCALE.find((item) => score >= item.min);
+    }
+
+    function addCourseRow(data = {}) {
+      const row = template.content.firstElementChild.cloneNode(true);
+      row.querySelector(".course-name").value = data.name || "";
+      row.querySelector(".credit-input").value = data.credit || "";
+      row.querySelector(".score-input").value = data.score || "";
+      courseBody.append(row);
+      updateCalculation();
+    }
+
+    function renderScale() {
+      scaleList.innerHTML = "";
+      GPA_SCALE.forEach((item) => {
+        const li = document.createElement("li");
+        li.className = "scale-item";
+        li.innerHTML = `<span>${item.range} · ${item.letter}</span><strong>${item.gpa.toFixed(1)}</strong>`;
+        scaleList.append(li);
+      });
+    }
+
+    function getCourseRows() {
+      return Array.from(courseBody.querySelectorAll("tr"));
+    }
+
+    function updateCalculation() {
+      let totalCreditValue = 0;
+      let totalWeightedValue = 0;
+      let completedRows = 0;
+      const invalidRows = [];
+      const processItems = [];
+
+      getCourseRows().forEach((row, index) => {
+        const nameInput = row.querySelector(".course-name");
+        const creditInput = row.querySelector(".credit-input");
+        const scoreInput = row.querySelector(".score-input");
+        const gpaCell = row.querySelector(".row-gpa");
+        const contributionCell = row.querySelector(".contribution");
+        const credit = parseInput(creditInput);
+        const score = parseInput(scoreInput);
+        const courseName = nameInput.value.trim() || `课程 ${index + 1}`;
+
+        gpaCell.textContent = "-";
+        contributionCell.textContent = "-";
+
+        if (credit === null && score === null) return;
+
+        if (credit === null || credit <= 0) {
+          invalidRows.push(`${courseName} 的学分需大于 0`);
+          return;
+        }
+
+        if (score === null || score < 0 || score > 100) {
+          invalidRows.push(`${courseName} 的英国分数需在 0-100 之间`);
+          return;
+        }
+
+        const scaleItem = scoreToGpa(score);
+        const weighted = credit * scaleItem.gpa;
+
+        completedRows += 1;
+        totalCreditValue += credit;
+        totalWeightedValue += weighted;
+
+        gpaCell.textContent = `${scaleItem.gpa.toFixed(1)} (${scaleItem.letter})`;
+        contributionCell.textContent = formatNumber(weighted);
+        processItems.push({
+          name: courseName,
+          credit,
+          score,
+          letter: scaleItem.letter,
+          gpa: scaleItem.gpa,
+          weighted
+        });
+      });
+
+      const gpa = totalCreditValue > 0 ? totalWeightedValue / totalCreditValue : 0;
+      finalGpa.textContent = formatNumber(gpa);
+      validCount.textContent = `${completedRows} 门有效课程`;
+      totalCredits.textContent = `总学分 ${formatNumber(totalCreditValue)}`;
+
+      renderFormula(totalWeightedValue, totalCreditValue, gpa, processItems);
+      renderProcess(processItems);
+      renderMessage(completedRows, invalidRows);
+    }
+
+    function renderFormula(weightedTotal, creditTotal, gpa, items) {
+      const weightedParts = items.map((item) => `${formatNumber(item.credit)} x ${item.gpa.toFixed(1)}`);
+      const creditParts = items.map((item) => formatNumber(item.credit));
+      const denominator = creditParts.length ? `(${creditParts.join(" + ")})` : "0";
+
+      formula.innerHTML = `
+        <p class="formula-line"><strong>公式：</strong>GPA = Σ(课程学分 x 课程 GPA) / Σ课程学分</p>
+        <p class="formula-line"><strong>代入：</strong>${weightedParts.length ? weightedParts.join(" + ") : "暂无有效课程"}</p>
+        <p class="formula-line"><strong>汇总：</strong>${formatNumber(weightedTotal)} / ${denominator} = ${formatNumber(gpa)}</p>
+      `;
+    }
+
+    function renderProcess(items) {
+      processList.innerHTML = "";
+
+      if (!items.length) {
+        const li = document.createElement("li");
+        li.textContent = "有效课程会在这里逐项显示换算结果。";
+        processList.append(li);
+        return;
+      }
+
+      items.forEach((item) => {
+        const li = document.createElement("li");
+        li.textContent = `${item.name}：${formatNumber(item.credit)} 学分，英国分数 ${formatNumber(item.score, 1)} -> ${item.letter} / GPA ${item.gpa.toFixed(1)}，贡献值 ${formatNumber(item.credit)} x ${item.gpa.toFixed(1)} = ${formatNumber(item.weighted)}`;
+        processList.append(li);
+      });
+    }
+
+    function renderMessage(completedRows, invalidRows) {
+      if (invalidRows.length) {
+        message.textContent = invalidRows.join("；");
+        message.hidden = false;
+        return;
+      }
+
+      if (!completedRows) {
+        message.textContent = "请输入至少一门课程的学分和 0-100 英国分数。";
+        message.hidden = false;
+        return;
+      }
+
+      message.hidden = true;
+    }
+
+    document.querySelector("#addCourse").addEventListener("click", () => {
+      addCourseRow();
+      const lastRow = courseBody.lastElementChild;
+      lastRow.querySelector(".course-name").focus();
+    });
+
+    document.querySelector("#clearCourses").addEventListener("click", () => {
+      courseBody.innerHTML = "";
+      addCourseRow();
+      addCourseRow();
+      addCourseRow();
+    });
+
+    courseBody.addEventListener("input", updateCalculation);
+
+    courseBody.addEventListener("click", (event) => {
+      if (!event.target.classList.contains("delete-btn")) return;
+      event.target.closest("tr").remove();
+      if (!courseBody.children.length) addCourseRow();
+      updateCalculation();
+    });
+
+    renderScale();
+    addCourseRow();
+    addCourseRow();
+    addCourseRow();
+  </script>
+</body>
+</html>

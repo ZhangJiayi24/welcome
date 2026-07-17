@@ -151,6 +151,14 @@ $$
 
 如果你需要非常正式的（比如申请时）的换算 GPA，需要去 WES 官网进行换算。
 
+### GPA 计算器
+
+可以在下方输入每门课程的学分和英国分数，计算器会先将分数换算为对应 GPA，再按学分加权计算总 GPA。所有计算均在浏览器本地完成，输入内容不会上传。
+
+<iframe class="gpa-calculator-frame" src="../../assets/tools/gpa-calculator.html" title="GPA 计算器" loading="lazy" sandbox="allow-scripts" referrerpolicy="no-referrer"></iframe>
+
+[在新页面打开 GPA 计算器](../assets/tools/gpa-calculator.html){ .resource-link target="_blank" }
+
 E.g. 你的成绩还是
 
 | 课程 | A | B | C | D |
