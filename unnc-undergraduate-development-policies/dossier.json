@@ -1,0 +1,203 @@
+{
+  "target": {
+    "name": "宁波诺丁汉大学本科生课外培养与发展政策/项目",
+    "canonical_name": "University of Nottingham Ningbo China undergraduate co-curricular development ecosystem",
+    "description": "面向本科生的科研、竞赛、创新创业、行业实践、领导力、公益、国际交流、体育与适应性培养项目地图。",
+    "scope": "以公开官网可核验的校级及三大学院项目为主；覆盖历史公开信息，重点核对2023-24至2026年仍可见或近期更新的项目。",
+    "country_or_region": "中国浙江宁波",
+    "investigation_date": "2026-07-15"
+  },
+  "object_type": "university",
+  "entity_disambiguation": {
+    "candidates": [
+      {
+        "name": "宁波诺丁汉大学（UNNC）",
+        "object_type": "university",
+        "affiliation_or_context": "中国浙江宁波；诺丁汉大学中国校区",
+        "distinguishing_features": ["官网域名 nottingham.edu.cn", "三大学院：商学院、人文社科学院、理工学院"],
+        "source_ids": ["S1", "S9"],
+        "status": "selected"
+      },
+      {
+        "name": "英国诺丁汉大学（UoN UK）",
+        "object_type": "university",
+        "affiliation_or_context": "英国校区；部分NAA与三校区项目共享品牌",
+        "distinguishing_features": ["并非本次调查主体", "用于解释NAA和三校区资源背景"],
+        "source_ids": ["S11"],
+        "status": "rejected"
+      }
+    ],
+    "selected_entity": {
+      "name": "宁波诺丁汉大学（UNNC）",
+      "object_type": "university",
+      "affiliation_or_context": "中国浙江宁波",
+      "distinguishing_features": ["调查对象为本科生在宁波校区可参与的培养项目"],
+      "source_ids": ["S1", "S9"],
+      "status": "selected"
+    },
+    "selection_reason": "用户点名宁波诺丁汉大学，并举例校内FURP和商学院SEED；检索因此限定为UNNC官方公开页面。",
+    "unresolved_ambiguities": ["FURP在部分官方中文页面写作“本科生科研实习项目”或“暑期科研实习项目”，项目边界和英文全称在不同年份页面中并不完全统一。"]
+  },
+  "aliases": ["宁诺", "UNNC", "University of Nottingham Ningbo China", "本科生科研实习项目", "FURP", "Summer Research Placement Programme", "SEED", "Nottingham Advantage Award", "NAA"],
+  "search_queries": [
+    "site:nottingham.edu.cn 本科生 科研 FURP 宁波诺丁汉大学",
+    "site:nottingham.edu.cn SEED 商学院 宁波诺丁汉大学 本科生",
+    "site:nottingham.edu.cn 本科生 竞赛 创新创业 培养 宁波诺丁汉大学",
+    "site:nottingham.edu.cn undergraduate research competition leadership employability student development UNNC",
+    "site:nottingham.edu.cn 诺丁汉卓越奖 学生 宁波",
+    "site:nottingham.edu.cn 理工学院领雁计划",
+    "site:nottingham.edu.cn 学生竞赛发展基金 宁波诺丁汉大学",
+    "site:nottingham.edu.cn Students as Change Agents UNNC",
+    "site:nottingham.edu.cn 国际组织实习 冬夏短学期 宁波诺丁汉大学"
+  ],
+  "executive_summary": {
+    "one_sentence": "宁诺的本科生培养并非只有零散竞赛，而是由全校通用平台、学院旗舰项目和专项基金/奖项组成的第二课堂体系：科研以FURP为主干，商学院以SEED四路径、人文社科以未来菁英、理工以科研实习与领雁计划为学院抓手，再由NAA、竞赛基金、李达三孵化园、国际交流、公益和体育项目补齐实践能力。",
+    "confidence": "confirmed",
+    "source_ids": ["S1", "S2", "S3", "S6", "S7", "S8", "S9", "S11", "S15"],
+    "notes": "“政策”在公开官网中更多以scheme、programme、fund、award和年度项目呈现；具体申请条件常在Moodle、邮件或当年通知中。"
+  },
+  "background": {
+    "summary": "学校官方本科质量报告将实践教学、产教融合和创新创业列为本科培养的重要组成部分，并明确通过本科生进实验室、参加教师科研项目、学院就业能力计划和孵化平台扩大课堂外学习机会。",
+    "identity": "中外合作大学的本科第二课堂与课外培养体系",
+    "location": "宁波市鄞州区泰康东路199号",
+    "affiliations": ["诺丁汉大学商学院（中国）", "人文与社会科学学院", "理工学院", "学生事务与发展中心", "就业指导办公室", "李达三孵化园", "国际合作与交流办公室", "教育发展基金会"],
+    "source_ids": ["S1", "S2", "S7", "S16"],
+    "credibility": "confirmed"
+  },
+  "timeline": [
+    {"date": "2011-12（按2022-23报告推算）", "event": "本科生科研实习项目启动，至2022-23学年进入第十二年。", "credibility": "likely", "source_ids": ["S2"], "notes": "报告未直接给出首届公历年份，年份为倒推。"},
+    {"date": "2017", "event": "宁诺国际创新创业孵化园成立，后更名为李达三孵化园。", "credibility": "confirmed", "source_ids": ["S8"]},
+    {"date": "2018-19", "event": "图书馆推出NAA Data Scholarship数据素养模块。", "credibility": "confirmed", "source_ids": ["S18"]},
+    {"date": "2022-23", "event": "FURP推出167个科研项目，600余名本科生参加；另有学生赴中科院上海药物所、深圳湾实验室科研实习。", "credibility": "confirmed", "source_ids": ["S2"]},
+    {"date": "2023-24", "event": "三大学院分别以SEED、新星/未来菁英和理工学生体验提升项目推进就业与科研能力培养；理工相关项目吸引700余名学生。", "credibility": "confirmed", "source_ids": ["S1"]},
+    {"date": "2024-25", "event": "SEED研究项目由18位教师提供80余个研究助理岗位、覆盖18个研究项目；SEED竞赛支持超过300名学生。", "credibility": "confirmed", "source_ids": ["S3", "S4"]},
+    {"date": "2025", "event": "商学院SEED奖学金以咨询、竞赛、研究、个人及创新/社会影响等类别面向全校学生开放。", "credibility": "confirmed", "source_ids": ["S19"]},
+    {"date": "2025-11", "event": "理工学院科研汇展再次将FURP描述为本科科研教育的重要承诺。", "credibility": "confirmed", "source_ids": ["S15"]}
+  ],
+  "key_facts": [
+    {"claim": "FURP/本科生科研实习项目是学校历史较久的综合素质提升项目，通过实验、调研、数据采集和报告写作让本科生体验完整科研流程。", "category": "科研训练｜全校/理工主导", "credibility": "confirmed", "source_ids": ["S2", "S15"], "notes": "公开材料显示理工学院是主要组织和校外科研基地拓展方。"},
+    {"claim": "理工学院的科研实习包含校内外机会，并曾与深圳湾实验室、中科院上海药物所建立学生校外科研实习合作。", "category": "科研训练｜理工学院", "credibility": "confirmed", "source_ids": ["S1", "S2"]},
+    {"claim": "商学院SEED现形成研究探索、行业实践、社会影响、商业竞赛四条培养路径。", "category": "学院旗舰｜商学院", "credibility": "confirmed", "source_ids": ["S3", "S4", "S5", "S20"]},
+    {"claim": "SEED研究探索从研究方法训练延伸到导师项目中的研究助理实践；2024-25学年有80余个RA岗位。", "category": "科研训练｜商学院", "credibility": "confirmed", "source_ids": ["S3"]},
+    {"claim": "SEED行业实践包含全球导师、国际创业、学生咨询、X-Culture、数字化转型咨询等NAA模块，部分项目采用选拔制并对接真实企业。", "category": "行业实践｜商学院", "credibility": "confirmed", "source_ids": ["S5"]},
+    {"claim": "SEED竞赛提供赛前工作坊、赛中导师指导、赛后复盘及资源/资金支持，覆盖金融、商业创新、可持续发展和创业赛事。", "category": "竞赛｜商学院", "credibility": "confirmed", "source_ids": ["S4"]},
+    {"claim": "SEED社会影响支持学生设计社区、环保及可持续项目，训练利益相关方沟通与成效评估。", "category": "社会影响｜商学院", "credibility": "confirmed", "source_ids": ["S20"]},
+    {"claim": "人文社科学院‘未来菁英计划’把科研助理、年度学术会议、竞赛支持、企业参访、实习/志愿者机会、领导力岗位和荣誉激励整合为长期成长项目。", "category": "学院旗舰｜人文社科", "credibility": "confirmed", "source_ids": ["S6"]},
+    {"claim": "未来菁英的竞赛支持可覆盖校内外赛事，并为晋级更高阶段的学生提供专项训练和相关费用资助。", "category": "竞赛｜人文社科", "credibility": "confirmed", "source_ids": ["S21"]},
+    {"claim": "理工学院‘领雁计划/High Flyer Scheme’是一年期项目，面向表现优异的本科生，提供学院及大学活动以增强知识、技能和升学就业准备。", "category": "拔尖培养｜理工学院", "credibility": "confirmed", "source_ids": ["S14"]},
+    {"claim": "诺丁汉卓越奖（NAA）是全校就业力奖项体系，以课外/协同课程模块训练个人、学术和职业能力；具体模块可由学院、图书馆、孵化园等承办。", "category": "能力认证｜全校", "credibility": "confirmed", "source_ids": ["S11", "S18"]},
+    {"claim": "Students as Change Agents（SACA）允许学生与教职员工合作开展改善教学与学生体验的项目，并可选修相应NAA模块。", "category": "领导力与学校治理｜全校", "credibility": "confirmed", "source_ids": ["S12"], "notes": "官网公开征集日期停留在2020-21，当前是否持续按同样方式开放需校内核验。"},
+    {"claim": "学生竞赛发展基金是全校竞赛支持平台，提供政策、奖励、行政与学术资源支持。", "category": "竞赛资助｜全校", "credibility": "confirmed", "source_ids": ["S7"]},
+    {"claim": "李达三孵化园为学生提供从创意、实践到孵化的支持；李达三创新基金每年公开材料称至少提供300万元，支持符合条件的师生完成成果0到1转化。", "category": "创新创业｜全校", "credibility": "confirmed", "source_ids": ["S1", "S8"]},
+    {"claim": "创客实验室、创新工作室以及‘从创新到创业’NAA实践课构成面向跨学院学生的创新创业训练入口。", "category": "创新创业｜全校", "credibility": "confirmed", "source_ids": ["S7", "S2"]},
+    {"claim": "学校国际交流体系向本科生提供2+2、交换、冬夏短学期、国际组织实习、国际志愿、科研工作坊、国际竞赛或会议等多种路径。", "category": "国际化培养｜全校", "credibility": "confirmed", "source_ids": ["S9"]},
+    {"claim": "‘点亮未来’公益志愿服务由暑期社会实践发展而来，覆盖支教、赛会志愿、动植物保护研究与传统文化研习等。", "category": "公益与社会责任｜全校", "credibility": "confirmed", "source_ids": ["S10"]},
+    {"claim": "体育EXCEL为校代表队竞技培养通道，覆盖多项男女或混合项目，每学期初选拔。", "category": "体育与竞技｜全校", "credibility": "confirmed", "source_ids": ["S13"]},
+    {"claim": "新生过渡计划、朋辈导师项目用于帮助本科新生适应英式大学学习、校园生活及专业分流。", "category": "适应与朋辈支持｜全校", "credibility": "confirmed", "source_ids": ["S7", "S22"]},
+    {"claim": "梦想奖学金、校长推荐优秀毕业生奖、实习金像奖、乐歌奖学金、领创人才奖学金和中银奖学金等，分别对第二课堂、实习、创业领导力和海外夏校形成激励或资助。", "category": "奖励与资助｜全校/专项", "credibility": "confirmed", "source_ids": ["S14"]}
+  ],
+  "people_and_orgs": [
+    {"name": "教务与学院教学体系", "entity_type": "university function", "role_or_relationship": "FURP、实践教学及个人导师制度的学术支撑。", "credibility": "confirmed", "source_ids": ["S1", "S2"]},
+    {"name": "学生事务与发展中心", "entity_type": "university department", "role_or_relationship": "竞赛基金、学生参与、公益、新生适应等第二课堂项目的重要组织者。", "credibility": "confirmed", "source_ids": ["S7", "S10", "S22"]},
+    {"name": "就业指导办公室", "entity_type": "university department", "role_or_relationship": "提供生涯教育、升学、实习、招聘、国际学生就业及NAA支持。", "credibility": "confirmed", "source_ids": ["S11", "S16"]},
+    {"name": "宁波诺丁汉大学教育发展基金会", "entity_type": "foundation", "role_or_relationship": "资助SEED、未来菁英、竞赛、公益、创新工作室和多类奖学金。", "credibility": "confirmed", "source_ids": ["S7", "S14"]},
+    {"name": "李达三孵化园", "entity_type": "incubator", "role_or_relationship": "创新创业实践、基金、工作室、孵化与产业资源入口。", "credibility": "confirmed", "source_ids": ["S8"]},
+    {"name": "国际合作与交流办公室", "entity_type": "university department", "role_or_relationship": "交换、短学期、国际实习/志愿、会议与海外学习项目入口。", "credibility": "confirmed", "source_ids": ["S9"]}
+  ],
+  "recent_updates": [
+    {"date": "2026", "update": "商学院官网将SEED重构/呈现为研究探索、行业实践、社会影响、商业竞赛四条路径，并更新NAA模块说明。", "credibility": "confirmed", "source_ids": ["S3", "S4", "S5", "S20"]},
+    {"date": "2025-11", "update": "理工学院举办第二届本硕学生科研汇展，公开案例显示FURP仍被作为本科生科研入口。", "credibility": "confirmed", "source_ids": ["S15"]},
+    {"date": "2025-03", "update": "SEED奖学金公布咨询、竞赛、研究、个人、创新与社会影响类别，并称面向全校学生。", "credibility": "confirmed", "source_ids": ["S19"]},
+    {"date": "2024-25", "update": "未来菁英计划公开披露500余名学生参与企业参访、行业研讨、学术会议与职业规划活动。", "credibility": "confirmed", "source_ids": ["S6"]}
+  ],
+  "evidence_table": [
+    {"claim": "宁诺有全校性的本科科研训练主干", "evidence_summary": "本科质量报告连续描述本科生科研实习项目，并给出项目数、参与人数及校外基地。", "credibility": "confirmed", "source_ids": ["S1", "S2", "S15"], "limitations": "公开报告未给出统一对外申请页面；具体年度课题、年级和选拔规则通常需校内平台确认。"},
+    {"claim": "三大学院均有相对成体系的第二课堂旗舰项目", "evidence_summary": "质量报告并列SEED、新星/未来菁英和理工学生体验提升项目；学院官网进一步给出路径和活动。", "credibility": "confirmed", "source_ids": ["S1", "S3", "S6", "S14"], "limitations": "理工学院公开页面对‘学生体验提升项目’的总框架不如另两学院完整。"},
+    {"claim": "竞赛支持不只是赛事通知，还包括经费、导师和奖励", "evidence_summary": "校级竞赛发展基金、SEED竞赛、未来菁英竞赛支持均明确提到资源、导师、培训或费用。", "credibility": "confirmed", "source_ids": ["S4", "S7", "S21"], "limitations": "各年度可报销范围、金额和审批流程未公开集中展示。"},
+    {"claim": "创新创业存在从启蒙到孵化的链条", "evidence_summary": "创客实验室、创新工作室、NAA实践课、李达三创新基金和孵化园服务覆盖创意、训练、原型、资金和孵化。", "credibility": "confirmed", "source_ids": ["S2", "S7", "S8"], "limitations": "基金要求‘符合申请条件’，公开主页未完整列出学生资格与评审周期。"},
+    {"claim": "NAA是跨部门能力认证框架", "evidence_summary": "就业官网定义NAA为就业力奖项；商学院、图书馆、孵化园均承办具体模块。", "credibility": "confirmed", "source_ids": ["S5", "S11", "S18"], "limitations": "当年实际开课模块和名额以Moodle/校内选课通知为准。"},
+    {"claim": "国际化与公益、体育也被纳入综合素质培养", "evidence_summary": "官方页面列出海外多路径、点亮未来公益项目和体育EXCEL代表队选拔。", "credibility": "confirmed", "source_ids": ["S9", "S10", "S13"], "limitations": "这些项目并非都提供学分或证书。"}
+  ],
+  "credibility_assessment": {
+    "confirmed": [
+      {"claim": "FURP、SEED、未来菁英、NAA、李达三孵化园、学生竞赛基金、国际交流与公益项目均有学校官方页面或质量报告佐证。", "rationale": "均为学校官网、学院官网或正式本科教学质量报告直接描述。", "source_ids": ["S1", "S2", "S3", "S6", "S7", "S8", "S9", "S10", "S11"]}
+    ],
+    "likely": [
+      {"claim": "FURP大约始于2011-12学年。", "rationale": "2022-23报告称该学年为第十二年，只能倒推，未找到明确首届日期。", "source_ids": ["S2"]}
+    ],
+    "unclear": [
+      {"claim": "SACA、理工领雁计划、新生过渡计划目前是否仍以相同规则和频率开放。", "rationale": "项目有官方存档页，但部分公开页面的具体日期较旧，缺少2026申请通知。", "source_ids": ["S7", "S12", "S14"]}
+    ],
+    "rumor": []
+  },
+  "risks_and_controversies": [
+    {"risk": "公开官网的项目介绍不等同于当学年可申请通知；名额、资格、经费和截止时间可能变化。", "credibility": "confirmed", "source_ids": ["S1", "S3", "S6", "S7"], "notes": "应以Moodle、校内邮件和项目办公室当年通知为准。"},
+    {"risk": "部分项目名称发生过调整，例如质量报告中的‘新星计划’与现官网‘未来菁英计划’，不能未经校内确认就断言完全同一制度。", "credibility": "unclear", "source_ids": ["S1", "S6"], "notes": "两者内容和参与规模高度对应，但公开页面未解释更名。"},
+    {"risk": "项目覆盖面不同：SEED主体是商学院旗舰计划，但部分奖学金或申请可能面向全校；FURP的实际组织重心也明显偏理工。", "credibility": "confirmed", "source_ids": ["S1", "S3", "S19"], "notes": "申请前需区分‘项目参与资格’和‘奖学金资格’。"}
+  ],
+  "unknowns_and_blind_spots": [
+    {"question": "2026-27学年FURP的准确英文全称、项目清单、年级门槛、选拔方式与是否有补贴？", "reason": "官网有项目成效和新闻，但未找到公开统一申请页。", "candidate_source_types": ["official"]},
+    {"question": "NAA当前全部模块、结业要求、证书/成绩单呈现方式是什么？", "reason": "公开官网只给出定义和部分模块案例，完整清单大概率在Moodle或学生门户。", "candidate_source_types": ["official"]},
+    {"question": "未来菁英与质量报告中的‘新星计划’是否为正式更名？", "reason": "内容高度对应，但未找到官方更名说明。", "candidate_source_types": ["official"]},
+    {"question": "学生竞赛发展基金、梦想基金和学院竞赛经费能否叠加申请？", "reason": "公开页面没有集中列明财务规则。", "candidate_source_types": ["official"]},
+    {"question": "领雁计划、SACA、新生过渡计划在2026年的实际开放状态？", "reason": "有官方项目页，但缺乏最新公开招募日期。", "candidate_source_types": ["official"]},
+    {"question": "哪些项目可计学分、计NAA、写入HEAR/成绩单或仅颁发证书？", "reason": "不同项目页面用语不一致，需教务或就业办公室确认。", "candidate_source_types": ["official"]}
+  ],
+  "next_verification_questions": [
+    "向教务/理工学生体验团队索取2026-27 FURP call for proposals / student application pack。",
+    "在Moodle检索FURP、SEED、Rising Star、NAA、High Flyer、SACA六个关键词，核对当年开放状态。",
+    "向学生事务与发展中心索取《学生竞赛发展基金》现行办法、报销范围和时间线。",
+    "向就业指导办公室确认NAA结业规则及是否进入HEAR/官方记录。",
+    "向李达三孵化园索取学生创新基金、创新工作室和创客实验室最新申请手册。"
+  ],
+  "notion_ready_summary": {
+    "title": "宁波诺丁汉大学本科生第二课堂培养项目地图",
+    "summary": "宁诺形成了‘科研—竞赛—行业—创业—国际化—社会责任—身心发展’的多层培养网络。最值得优先关注的是FURP、SEED、未来菁英、理工领雁、NAA、学生竞赛发展基金和李达三孵化园。",
+    "bullets": [
+      "科研：FURP/理工科研实习、SEED研究RA、未来菁英科研助理与学术会议。",
+      "竞赛：校级竞赛基金 + SEED赛前/赛中/赛后支持 + 未来菁英专项培训和费用。",
+      "实践：SEED咨询/X-Culture/导师项目、NAA、就业办公室实习与生涯服务。",
+      "创业：创客实验室、创新工作室、李达三创新基金、孵化园。",
+      "综合素质：国际交换与短学期、点亮未来、SACA、体育EXCEL、新生过渡和朋辈导师。",
+      "关键提醒：官网项目介绍不代表当学年开放，最终以Moodle、校内邮件和项目办公室通知为准。"
+    ],
+    "tags": ["UNNC", "本科培养", "FURP", "SEED", "未来菁英", "NAA", "竞赛", "创新创业", "国际交流"]
+  },
+  "notion_ready_table": {
+    "target": "宁波诺丁汉大学本科生课外培养政策/项目",
+    "object_type": "university",
+    "one_line_summary": "以FURP为科研主干、三大学院旗舰计划为抓手、NAA和基金平台为横向支撑的本科第二课堂体系。",
+    "key_tags": ["科研训练", "竞赛支持", "行业实践", "创新创业", "领导力", "公益", "国际交流", "体育"],
+    "relevance": "适合做新生发展路线图、家长手册、申请规划和校内资源导航。",
+    "confidence": "confirmed",
+    "last_updated": "2026-07-15",
+    "official_sources": ["本科教学质量报告", "学院项目官网", "教育发展基金会", "就业指导办公室", "国际交流官网"],
+    "key_evidence": ["2022-23 FURP 167项/600余人", "2023-24理工相关项目700余人", "2024-25 SEED研究80余RA岗位", "SEED四路径", "未来菁英五类能力支持"],
+    "risks": ["年度开放状态变化", "学院限定与全校开放易混淆", "部分完整规则仅校内可见"],
+    "unknowns": ["2026-27申请细则", "NAA完整模块与记录方式", "SACA/领雁最新开放状态"],
+    "next_actions": ["查Moodle", "订阅校内邮件", "联系学院学生体验团队", "索取基金现行办法"]
+  },
+  "sources": [
+    {"id": "S1", "title": "2023-24学年本科教学质量报告", "url": "https://www.nottingham.edu.cn/cn/information-disclosure/documents/items/ug-teaching-quality-report/2023-2024-ug-teaching-quality-report.pdf", "publisher": "宁波诺丁汉大学", "published_date": "2024", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["实践教学框架", "三大学院就业能力项目", "理工科研实习", "创新创业"], "freshness_note": "目前检索到的最新公开本科教学质量报告之一；数据对应2023-24学年。"},
+    {"id": "S2", "title": "2022-23学年本科教学质量报告", "url": "https://www.nottingham.edu.cn/cn/information-disclosure/documents/items/ug-teaching-quality-report/2022-2023-ug-teaching-quality-report.pdf", "publisher": "宁波诺丁汉大学", "published_date": "2023", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["FURP历史与规模", "校外科研基地", "创新创业全链条", "个人导师制度"], "freshness_note": "历史年度报告，用于确认项目沿革和制度结构。"},
+    {"id": "S3", "title": "SEED研究探索培养路径", "url": "https://www.nottingham.edu.cn/cn/business/employability-development/seed-research-exploration.aspx", "publisher": "诺丁汉大学商学院（中国）", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["SEED研究训练路径", "研究助理实践", "2024-25岗位规模"], "freshness_note": "官网近期抓取，页面未标发布日期。"},
+    {"id": "S4", "title": "SEED商业竞赛培养路径", "url": "https://www.nottingham.edu.cn/cn/business/employability-development/seed-business-competition.aspx", "publisher": "诺丁汉大学商学院（中国）", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["竞赛全流程支持", "竞赛领域", "学生能力目标"], "freshness_note": "官网含2026赛事公告，说明页面仍在维护；主体介绍无发布日期。"},
+    {"id": "S5", "title": "NAA课程 / SEED行业实践培养路径", "url": "https://www.nottingham.edu.cn/cn/business/employability-development/naa-module.aspx", "publisher": "诺丁汉大学商学院（中国）", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["七门NAA行业实践模块", "咨询、导师、创业与X-Culture项目"], "freshness_note": "官网近期抓取，未标发布日期；具体当学年模块需校内确认。"},
+    {"id": "S6", "title": "职业发展：FHSS未来菁英计划", "url": "https://www.nottingham.edu.cn/cn/humanities-and-social-sciences/career-development/career-development.aspx", "publisher": "宁波诺丁汉大学人文与社会科学学院", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["未来菁英定位", "科研、竞赛、就业、领导力与荣誉体系", "2024-25参与情况"], "freshness_note": "页面含2024-25学年活动数据，未标发布日期。"},
+    {"id": "S7", "title": "捐赠项目—学生活动", "url": "https://www.nottingham.edu.cn/cn/foundation/donation-projects/student-activity.aspx", "publisher": "宁波诺丁汉大学教育发展基金会", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["创客实验室", "创新工作室", "竞赛发展基金", "新生过渡", "SEED与未来菁英"], "freshness_note": "项目汇总页无统一发布日期；部分项目可能需要核对当年开放状态。"},
+    {"id": "S8", "title": "李达三孵化园", "url": "https://www.nottingham.edu.cn/cn/research-and-knowledge-exchange/li-dak-sum-incubator/li-dak-sum-incubator.aspx", "publisher": "宁波诺丁汉大学", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["孵化园历史", "服务群体", "学生创业支持", "李达三创新基金"], "freshness_note": "官网近期抓取并含2024资质信息，未标页面发布日期。"},
+    {"id": "S9", "title": "国际交流", "url": "https://www.nottingham.edu.cn/cn/global/home.aspx", "publisher": "宁波诺丁汉大学", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["本科生国际交流形式", "合作网络"], "freshness_note": "当前官网汇总页，未标发布日期。"},
+    {"id": "S10", "title": "点亮未来——宁波诺丁汉大学公益志愿服务项目", "url": "https://www.nottingham.edu.cn/cn/department-of-campus-life/student-engagement/%E5%85%AC%E7%9B%8A%E5%BF%97%E6%84%BF%E6%9C%8D%E5%8A%A1%E9%A1%B9%E7%9B%AE.aspx", "publisher": "宁波诺丁汉大学", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["暑期社会实践", "志愿服务类型", "社会责任培养"], "freshness_note": "页面含截至2023年前后的累计信息，未标发布日期。"},
+    {"id": "S11", "title": "Nottingham Advantage Award", "url": "https://www.nottingham.edu.cn/en/careers/naa/nottingham-advantage-award.aspx", "publisher": "University of Nottingham Ningbo China", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["NAA定义", "就业力与课外能力目标"], "freshness_note": "当前就业官网页面，未标发布日期。"},
+    {"id": "S12", "title": "Development schemes: Students as Change Agents", "url": "https://www.nottingham.edu.cn/en/teaching-learning/schemes/index.aspx", "publisher": "University of Nottingham Ningbo China", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["SACA项目机制", "NAA关联", "学生参与教学改进"], "freshness_note": "公开招募日期停留在2020-21，当前开放状态不明。"},
+    {"id": "S13", "title": "EXCEL", "url": "https://www.nottingham.edu.cn/en/sport/excel/excel.aspx", "publisher": "University of Nottingham Ningbo China Sport", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["校代表队项目", "项目清单", "每学期选拔"], "freshness_note": "当前体育官网页面，未标发布日期。"},
+    {"id": "S14", "title": "奖助学金", "url": "https://www.nottingham.edu.cn/cn/foundation/donation-projects/scholarships-and-grants.aspx", "publisher": "宁波诺丁汉大学教育发展基金会", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["梦想奖学金", "实习金像奖", "领雁计划", "领创人才奖学金", "中银奖学金"], "freshness_note": "项目汇总页混合长期与历史项目，申请前需确认当年是否开放。"},
+    {"id": "S15", "title": "在宁诺，与未来科学家同行：第二届理工学院本硕学生科研汇展全程回顾", "url": "https://www.nottingham.edu.cn/cn/university-life/News/Article.aspx?id=fd622157-59d5-4a33-9b98-116f364f06fb&language=zh", "publisher": "宁波诺丁汉大学", "published_date": "2025-11", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["FURP近期持续性", "本科科研展示"], "freshness_note": "近期官方新闻；用于说明项目仍被公开宣传，不替代当年招生规则。"},
+    {"id": "S16", "title": "就业指导办公室", "url": "https://www.nottingham.edu.cn/cn/careers/index.aspx", "publisher": "宁波诺丁汉大学", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["生涯教育", "升学、实习与招聘服务", "NAA入口"], "freshness_note": "含2026内容，属于当前页面。"},
+    {"id": "S18", "title": "NAA Data Scholarship", "url": "https://www.nottingham.edu.cn/en/library/research/data-scholarship/naa.aspx", "publisher": "University of Nottingham Ningbo China Library", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["数据素养NAA模块", "Python/Tableau/Stata/NVivo训练"], "freshness_note": "页面称项目始于2018-19，未确认2026是否继续开课。"},
+    {"id": "S19", "title": "诺丁汉大学商学院（中国）SEED奖学金开放申请", "url": "https://www.nottingham.edu.cn/cn/university-life/news/article.aspx?id=423a3387-1cc0-4186-9e45-95d56e0806e7&language=zh", "publisher": "宁波诺丁汉大学", "published_date": "2025-03-17", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["SEED奖学金类别", "当轮面向全校", "奖金额度"], "freshness_note": "仅支持2025年该轮申请，不代表所有SEED活动均面向全校。"},
+    {"id": "S20", "title": "SEED社会影响培养路径", "url": "https://www.nottingham.edu.cn/cn/business/employability-development/seed-social-impact.aspx", "publisher": "诺丁汉大学商学院（中国）", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["社区项目", "可持续发展", "社会影响能力"], "freshness_note": "官网近期抓取，未标发布日期。"},
+    {"id": "S21", "title": "竞赛—未来菁英计划", "url": "https://www.nottingham.edu.cn/cn/humanities-and-social-sciences/career-development/competition.aspx", "publisher": "宁波诺丁汉大学人文与社会科学学院", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["竞赛指导", "晋级专项训练", "费用资助"], "freshness_note": "当前学院页面，未标发布日期。"},
+    {"id": "S22", "title": "人文关怀", "url": "https://www.nottingham.edu.cn/cn/department-of-campus-life/pastoral-care/pastoral-care.aspx", "publisher": "宁波诺丁汉大学", "published_date": "unknown", "accessed_date": "2026-07-15", "source_type": "official", "reliability": "confirmed", "supports_claims": ["朋辈导师", "新生适应", "国际生支持"], "freshness_note": "页面含2024活动信息，未标发布日期。"}
+  ]
+}
