@@ -40,8 +40,13 @@
 
 ### 2026年编委会名单
 
-- 主编、编委、主笔：<a href="https://zhangjiayi24.github.io/" style="color: #4aa3df;" target="_blank" rel="noopener">@齐康</a>
-- “科研与素质教育”部分信息：[@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao
+- 主编、编委、技术支持：<a href="https://zhangjiayi24.github.io/" style="color: #4aa3df;" target="_blank" rel="noopener">@齐康</a>
+
+### 鸣谢
+
+感谢以下人员对 2026 年指引编撰与修订工作作出的贡献。
+
+- [@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao、<a href="https://github.com/isaac-sun" style="color: #4aa3df;" target="_blank" rel="noopener">@Isaac</a>
 
 ## 联系方式
 

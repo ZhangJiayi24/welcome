@@ -71,6 +71,7 @@ extra_css:
 
 extra_javascript:
   - assets/javascripts/mathjax.js
+  - assets/javascripts/gallery.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra:
@@ -126,4 +127,5 @@ nav:
       - 体育与社团: campus-life/sports-societies.md
   - 宁波生活:
       - 校园周边: ningbo/nearby.md
+      - 校外餐饮推荐: ningbo/food.md
   - 后记: about/index.md
