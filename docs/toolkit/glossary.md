@@ -18,9 +18,9 @@
 | 专业或入学方向 | 英文全称 | 常用简称 |
 | --- | --- | --- |
 | 金融财务与管理 | Finance, Accounting and Management | FAM |
-| 大数据管理与应用 | Big Data Management and Applications | — |
-| 管理科学 | Management Science | — |
-| 金融科技 | Financial Technology | — |
+| 大数据管理与应用 | Big Data Management and Applications | BDMA |
+| 管理科学 | Management Science | MS |
+| 金融科技 | Financial Technology | FT |
 | **国际商务** | **International Business** | **IB** |
 | ↳ 国际商务管理 | International Business Management | IBM |
 | ↳ 国际商务与国际传播学 | International Business with Communications Studies | IBC |
