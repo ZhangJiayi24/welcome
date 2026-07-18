@@ -29,7 +29,7 @@
 
 | 网站 | 用途 |
 | --- | --- |
-| [校园打印机上传文件](http://webprint.nottingham.edu.cn) | 向教学楼打印机在线上传需要打印的文件，可能需要校园网或 VPN。[查看 IT-Service 打印机使用指南](https://mp.weixin.qq.com/s/DShizWMO4XZWAAyzmiXUtA2)。 |
+| [校园打印机上传文件](https://webprint.nottingham.edu.cn:9192/app?service=page/UserSummary) | 使用 WebPrint 上传文件并提交打印任务，需要连接 `eduroam` 等校园网络。开始前可查看[校园打印操作说明](../campus-life/printing.md)。 |
 | [NAA 课程学分查询](https://careers.nottingham.edu.cn/user/login?referer=/selectionCourse/list) | 查询 NAA 课程和相关学分信息。 |
 | [UNNC Portal](https://portal.nottingham.edu.cn) | 查看学校公告和校内发布的实习、RA 等信息，也可办理请假、申请成绩单等事务。 |
 | [学校 IT-Service 网站](https://itaccounts.nottingham.ac.uk) | 主要用于定期修改学校账号密码。[查看 IT-Service 修改密码指南](https://mp.weixin.qq.com/s/OqwQcnIycqejcu4NAS5h8A)。 |
