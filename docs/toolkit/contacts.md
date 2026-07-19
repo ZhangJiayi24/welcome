@@ -13,10 +13,11 @@
 | 学校总机 | 0574-88180000 | — | — |
 | 学生事务与发展中心（DCL）/ 新生入学报到 | 0574-88181397 | [NewStudentWelcome@nottingham.edu.cn](mailto:NewStudentWelcome@nottingham.edu.cn) | UNNC_Students |
 | 新生档案 | — | [XSDA@nottingham.edu.cn](mailto:XSDA@nottingham.edu.cn) | UNNC_Students |
-| 户口专线 | 0574-88180078 | — | — |
+| 户口专线 | 总机转 8878 | — | — |
 | 学费专线 | 总机转 7603 | — | — |
 | 新生选寝 / 公寓部 | 0574-88180820 / 0574-88180811 | [Accommodation@nottingham.edu.cn](mailto:Accommodation@nottingham.edu.cn) | — |
 | 新生校园卡专线（The Hub） | 总机转 8062 | [thehub@nottingham.edu.cn](mailto:thehub@nottingham.edu.cn) | UNNCTheHub；Portland Building 120 |
+| 国防教育咨询 | — | [NDE@nottingham.edu.cn](mailto:NDE@nottingham.edu.cn) | — |
 | CELE 学术事务办公室（CPSO） | 总机转 8664 | [cpso@nottingham.edu.cn](mailto:cpso@nottingham.edu.cn) | CELE_UNNC |
 
 ## 安全与身心健康
@@ -29,6 +30,7 @@
 | Clinic 24小时紧急救援 | 15168185997 | [UNNC.Clinic@nottingham.edu.cn](mailto:UNNC.Clinic@nottingham.edu.cn) | 23号楼一楼 |
 | University Counselling Service | — | [Universitycounsellingservice@nottingham.edu.cn](mailto:Universitycounsellingservice@nottingham.edu.cn) | 心理咨询服务 |
 | Mental Health Advisory Service（MHA） | — | [MHA@nottingham.edu.cn](mailto:MHA@nottingham.edu.cn) | 仅限转诊 |
+| 残障支持服务 | 总机转 8169 | [Disability-Support@nottingham.edu.cn](mailto:Disability-Support@nottingham.edu.cn) | 身体残障或长期健康状况支持 |
 | DCL 24小时热线 | 158-5740-0157 | — | 仅供紧急情况，非必要请勿拨打 |
 
 ## 学术、院系与信息服务
@@ -38,9 +40,9 @@
 | Global Engagement Office（GEO） | — | [international@nottingham.edu.cn](mailto:international@nottingham.edu.cn) | — |
 | IT Services | 0574-88180009 | [itservicedesk@nottingham.edu.cn](mailto:itservicedesk@nottingham.edu.cn) | unncit；Trent Building 305 |
 | UNNC Portal | — | [portal@nottingham.edu.cn](mailto:portal@nottingham.edu.cn) | — |
-| 理工学院（FoSE） | 0574-88186512 | [fose@nottingham.edu.cn](mailto:fose@nottingham.edu.cn) | — |
-| 人文社科学院（FHSS） | 总机转 8355 | [FHSS@nottingham.edu.cn](mailto:FHSS@nottingham.edu.cn) | IEB 306 |
-| 商学院（NUBS China） | — | [nubschina@nottingham.edu.cn](mailto:nubschina@nottingham.edu.cn) | — |
+| 理工学院（FoSE） | 0574-88186512 | [fose@nottingham.edu.cn](mailto:fose@nottingham.edu.cn) | FoSE_UNNC |
+| 人文社科学院（FHSS） | 总机转 8355 | [FHSS@nottingham.edu.cn](mailto:FHSS@nottingham.edu.cn) | FHSS_UNNC；IEB 306 |
+| 商学院（NUBS China） | 总机转 8467 | [nubschinaFO@nottingham.edu.cn](mailto:nubschinaFO@nottingham.edu.cn) | nubs_china |
 | 图书馆 | 0574-88180152 | [Library@nottingham.edu.cn](mailto:Library@nottingham.edu.cn) | UNNCLibrary |
 | 体育部 | 总机转 8668 | — | UNNCSport |
 
@@ -49,7 +51,7 @@
 | 单位 | 电话 | 邮箱 | 微信公众号 / 备注 |
 | --- | --- | --- | --- |
 | 招生录取办公室 | 0574-88180182 | [admissions@nottingham.edu.cn](mailto:admissions@nottingham.edu.cn) | — |
-| 就业指导办公室 | 总机转 8460 / 9103 / 8769 | [careers@nottingham.edu.cn](mailto:careers@nottingham.edu.cn) | — |
+| 就业指导办公室（CES） | 总机转 8793 | [careers@nottingham.edu.cn](mailto:careers@nottingham.edu.cn) | CareersUNNC；Trent Building 228 |
 | 品牌与传媒办公室 | — | [commsandmarketing@nottingham.edu.cn](mailto:commsandmarketing@nottingham.edu.cn) | — |
 | 商务拓展部（BDO） | 0574-88180016 | — | BDO_UNNC |
 | 小 Upay | 0574-88180900 | — | 宁诺小Upay |

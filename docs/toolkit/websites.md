@@ -8,10 +8,12 @@
 | 网站 | 用途 |
 | --- | --- |
 | [Outlook 邮箱](https://outlook.office.com) | 接收学校通知，并用于与同学和老师交流。需要学校账号。 |
+| [IT Accounts](https://itaccounts.nottingham.ac.uk/) | 激活学校 IT 账号、管理账号信息。2026 级新生从 8 月 11 日起按通知激活。 |
+| [Application Hub](https://oaas.nottingham.edu.cn/#/new-student/login) | 新生个人信息填写、网上预注册、网上选寝、打印新生注册单及延期报到申请。 |
 | [Moodle](https://moodle.nottingham.ac.uk/login/index.php) | 上课使用的学习平台，会显示你所选的课程；老师会在这里上传课件、PPT、习题、coursework 要求等课程资料，部分作业也需要通过 Moodle 提交。论文相似度检查可在页面右上方菜单中选择 **Test Your Text**，也可检查中文内容。 |
 | [NUsearch](https://nusearch.nottingham.edu.cn/primo-explore/search?vid=44NOTCH) | 写论文时查找 sources，以及查询图书馆纸质和电子馆藏。 |
 | [Google Scholar](https://scholar.google.com/) | 写论文时查找 sources、引用信息和相关研究。 |
-| [MyNottingham](https://mynottingham.nottingham.ac.uk) | 注册、选择选修课，以及办理部分学习生涯相关事项。 |
+| [NottinghamHub / MyNottingham](https://mynottingham.nottingham.ac.uk) | 新生按邀请邮件完成 NottinghamHub 注册；入学后用于办理部分学生事务。 |
 | [Bluecastle](https://bluecastle-cn.nottingham.ac.uk) | 老师考核，以及查询分数、课程和奖学金等信息。 |
 | [SPDPO 学分](https://spdpo.nottingham.edu.cn/) | 查询 SPDPO 学分相关信息，可能需要校园网或 VPN。 |
 | [E-document](https://edoc.nottingham.edu.cn) | 快速申请或打印成绩单、在校证明等文件的平台，非常方便。 |
@@ -31,5 +33,7 @@
 | --- | --- |
 | [校园打印机上传文件](https://webprint.nottingham.edu.cn:9192/app?service=page/UserSummary) | 使用 WebPrint 上传文件并提交打印任务，需要连接 `eduroam` 等校园网络。开始前可查看[校园打印操作说明](../campus-life/printing.md)。 |
 | [NAA 课程学分查询](https://careers.nottingham.edu.cn/user/login?referer=/selectionCourse/list) | 查询 NAA 课程和相关学分信息。 |
+| [校内就业与职业测评平台](https://careers.nottingham.edu.cn/) | 完成职业测评，查看就业活动、职业规划、咨询预约、简历投递和岗位信息。 |
+| [JISC 数字能力评估](https://jisc.potential.ly/) | 使用学校信息注册并完成数字能力自我评估；报告仅供个人查看和后续复测。 |
 | [UNNC Portal](https://portal.nottingham.edu.cn) | 查看学校公告和校内发布的实习、RA 等信息，也可办理请假、申请成绩单等事务。 |
 | [学校 IT-Service 网站](https://itaccounts.nottingham.ac.uk) | 主要用于定期修改学校账号密码。[查看 IT-Service 修改密码指南](https://mp.weixin.qq.com/s/OqwQcnIycqejcu4NAS5h8A)。 |
