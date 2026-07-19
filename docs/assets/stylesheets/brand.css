@@ -38,6 +38,72 @@ input {
   background: var(--nottingham-blue);
 }
 
+.home-email-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  margin: 1.25rem 0 2rem;
+  padding: 0.9rem 1rem;
+  border: 1px solid #d6dce1;
+  border-left: 0.25rem solid var(--jubilee-red);
+  border-radius: 0.4rem;
+  background: #ffffff;
+  box-shadow: 0 0.15rem 0.45rem rgb(16 38 59 / 6%);
+}
+
+.home-email-card__icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--jubilee-red);
+  color: #ffffff;
+}
+
+.home-email-card__icon svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentcolor;
+}
+
+.home-email-card__content {
+  min-width: 0;
+}
+
+.home-email-card__content strong {
+  color: var(--nottingham-blue);
+  font-size: 0.92rem;
+}
+
+.home-email-card__content p {
+  margin: 0.2rem 0 0;
+  color: var(--nottingham-blue-80);
+  font-size: 0.76rem;
+  line-height: 1.55;
+}
+
+.home-email-card__content a {
+  margin-left: 0.25rem;
+  font-weight: 650;
+}
+
+[data-md-color-scheme="slate"] .home-email-card {
+  border-color: #40566a;
+  border-left-color: #ff8a98;
+  background: #1d3144;
+}
+
+[data-md-color-scheme="slate"] .home-email-card__content strong {
+  color: #ffffff;
+}
+
+[data-md-color-scheme="slate"] .home-email-card__content p {
+  color: #cfdbe5;
+}
+
 .md-header__button.md-logo img {
   width: auto;
   height: 2.25rem;
@@ -199,6 +265,23 @@ input {
 @media screen and (max-width: 44.984375em) {
   .md-header__button.md-logo img {
     height: 1.7rem;
+  }
+
+  .home-email-card {
+    align-items: flex-start;
+    gap: 0.7rem;
+    margin: 1rem 0 1.5rem;
+    padding: 0.8rem;
+  }
+
+  .home-email-card__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+
+  .home-email-card__icon svg {
+    width: 0.95rem;
+    height: 0.95rem;
   }
 
   .pdf-embed {

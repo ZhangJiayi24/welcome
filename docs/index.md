@@ -8,6 +8,18 @@
 
 太长的话先看看[**重要提示**](important.md){ .important-link }吧~
 
+<div class="home-email-card">
+  <span class="home-email-card__icon" aria-hidden="true">
+    <svg viewBox="0 0 24 24" focusable="false">
+      <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z" />
+    </svg>
+  </span>
+  <div class="home-email-card__content">
+    <strong>每天至少检查两次学校邮箱</strong>
+    <p>账号激活后，建议早晚各检查一次。报到、课程、iWeek 和学院的重要通知都会通过学校邮箱发送。<a href="preparation/accounts/">查看详情 →</a></p>
+  </div>
+</div>
+
 ## 欢迎来到 UNNC
 
 十二年寒窗辛苦了，可能你经历了各种各样的意外，但无论如何，恭喜你们，宁波诺丁汉大学的新朋友们，你们终于走过了人生中一大重要转折——高考，开启大学的崭新篇章。Welcome to UNNC (short for University of Nottingham Ningbo China)!
