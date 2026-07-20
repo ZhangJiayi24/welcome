@@ -8,7 +8,7 @@
 | 网站 | 用途 |
 | --- | --- |
 | [Outlook 邮箱](https://outlook.office.com) | 接收学校通知，并用于与同学和老师交流。需要学校账号。 |
-| [UNNC AI（经 UNNC Portal 进入）](https://portal.nottingham.edu.cn) | 学校提供的生成式 AI 服务，每月包含 **400,000 token** 使用额度，可用于一般问答、英文邮件润色、中英翻译和写作校对等任务。 |
+| [UNNC AI](https://gpt.nottingham.edu.cn) | 学校提供的生成式 AI 服务，可直接打开，也可经 UNNC Portal 左侧菜单进入。每月包含 **400,000 token** 使用额度，可用于一般问答、英文邮件润色、中英翻译和写作校对等任务。 |
 | [IT Accounts](https://itaccounts.nottingham.ac.uk/) | 激活学校 IT 账号、管理账号信息。2026 级新生从 8 月 11 日起按通知激活。 |
 | [Application Hub](https://oaas.nottingham.edu.cn/#/new-student/login) | 新生个人信息填写、网上预注册、网上选寝、打印新生注册单及延期报到申请。 |
 | [Moodle](https://moodle.nottingham.ac.uk/login/index.php) | 上课使用的学习平台，会显示你所选的课程；老师会在这里上传课件、PPT、习题、coursework 要求等课程资料，部分作业也需要通过 Moodle 提交。论文相似度检查可在页面右上方菜单中选择 **Test Your Text**，也可检查中文内容。 |
@@ -30,11 +30,12 @@
 
 ### UNNC AI
 
-UNNC AI 是学校提供的生成式 AI 服务，使用学校账号登录。进入方式：
+UNNC AI 是学校提供的生成式 AI 服务，使用学校账号登录。可以通过以下两种方式进入：
 
-1. 打开 [UNNC Portal](https://portal.nottingham.edu.cn)；
-2. 在左侧菜单中选择 **UNNC AI**；
-3. 进入后按任务选择相应的 Assistant。
+1. **直接访问：**打开 [gpt.nottingham.edu.cn](https://gpt.nottingham.edu.cn)；
+2. **通过 Portal：**打开 [UNNC Portal](https://portal.nottingham.edu.cn)，在左侧菜单中选择 **UNNC AI**。
+
+进入后，可以根据任务选择相应的 Assistant。
 
 目前页面提供的助手包括 General Assistant、English Email Polisher、Chinese ⇆ English Translator、DeepSeek V4 Pro（Preview）和 Writing Proofreader 等，具体名称和功能可能随系统更新调整。
 

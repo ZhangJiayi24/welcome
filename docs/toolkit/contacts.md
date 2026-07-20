@@ -16,7 +16,7 @@
 | 户口专线 | 总机转 8878 | — | — |
 | 学费专线 | 总机转 7603 | — | — |
 | 新生选寝 / 公寓部 | 0574-88180820 / 0574-88180811 | [Accommodation@nottingham.edu.cn](mailto:Accommodation@nottingham.edu.cn) | — |
-| 新生校园卡专线（The Hub） | 总机转 8062 | [thehub@nottingham.edu.cn](mailto:thehub@nottingham.edu.cn) | UNNCTheHub；Portland Building 120 |
+| 学生服务中心（The Hub） | 总机转 8062 | [thehub@nottingham.edu.cn](mailto:thehub@nottingham.edu.cn) | 学生卡/学生证补办、IT 账号密码重置、火车票学生优惠及文件盖章；UNNCTheHub；Portland Building 120 |
 | 国防教育咨询 | — | [NDE@nottingham.edu.cn](mailto:NDE@nottingham.edu.cn) | — |
 | CELE 学术事务办公室（CPSO） | 总机转 8664 | [cpso@nottingham.edu.cn](mailto:cpso@nottingham.edu.cn) | CELE_UNNC |
 
