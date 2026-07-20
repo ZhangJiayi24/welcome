@@ -76,7 +76,7 @@ extra_javascript:
 
 extra:
   generator: false
-  site_version: 2026.0.1
+  site_version: 2026.1.0
 
 nav:
   - 首页:
