@@ -5,3 +5,5 @@
 由于微信内置浏览器加载 Notion 嵌入页面时可能反复刷新，本页不再自动载入 Notion。需要查看时，请通过下面的按钮单独打开资料库；如果微信中仍无法正常访问，可以复制链接到系统浏览器。
 
 [打开专业内容资料库](https://qikzhang.notion.site/394b7fea1a9c816c971bc6c0200a94ee){ .resource-link target="_blank" rel="noopener" }
+
+专业名称、培养方案和招生范围可能调整，选专业前也建议查看[学校官方本科专业页面](https://www.nottingham.edu.cn/cn/study-with-us/undergraduate/courses/index.aspx){ .resource-link target="_blank" rel="noopener" }。

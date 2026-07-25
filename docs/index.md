@@ -62,7 +62,7 @@
 
 感谢以下人员对 2026 年指引编撰与修订工作作出的贡献。
 
-- [@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao、<a href="https://github.com/isaac-sun" style="color: #4aa3df;" target="_blank" rel="noopener">@Isaac</a>
+- [@Jia](https://xhslink.com/m/7eWJrGn3aEx){ .resource-link target="_blank" rel="noopener" }、@Zhongyao、<a href="https://github.com/isaac-sun" style="color: #4aa3df;" target="_blank" rel="noopener">@Isaac</a>、@Wenshu
 
 ## 联系方式
 
