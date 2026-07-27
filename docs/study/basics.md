@@ -15,6 +15,10 @@
 
 每位学生开始上课前几天，会收到来自 Timetabling 的邮件通知你的课程表。课程表的查询及日历导入均通过 [Timetabling](https://timetabling.nottingham.edu.cn/mobile/#/){ .resource-link } 完成，可将课表导入 Apple 日历或 Outlook。学生需要按照课表，在对应时间前往对应地点上课。UNNC 课程时间安排如下表所示（以我大一第二学期课表和大二第一学期课表为例）。学期时间见[校历](../toolkit/calendar.md){ .resource-link }。
 
+!!! info "2026 年课表发布时间"
+    - 二、三、四年级及 PGT 学生的课表将于 **2026 年 9 月 23 日**开放。
+    - 一年级（Preliminary Year）学生的课表将于 **2026 年 9 月 25 日**开放。
+
 ![大一第二学期课表示例](../assets/images/timetable-year1.png)
 
 *大一第二学期课表示例*
