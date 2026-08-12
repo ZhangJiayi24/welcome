@@ -215,6 +215,78 @@ input {
   margin: 1rem auto;
 }
 
+.guide-qr-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 15rem);
+  justify-content: center;
+  margin: 1rem auto 1.5rem;
+}
+
+.md-typeset .guide-qr-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.md-typeset .guide-qr-grid img {
+  display: block;
+  width: 100%;
+  margin: 0;
+  border: 1px solid var(--nottingham-blue-20);
+}
+
+.md-typeset .guide-qr-grid figcaption {
+  margin-top: 0.4rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.account-guide-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  gap: 1rem;
+  align-items: start;
+  margin: 1rem auto 1.5rem;
+}
+
+.account-guide-grid--single {
+  grid-template-columns: minmax(0, 42rem);
+  justify-content: center;
+}
+
+.account-guide-grid--compact {
+  grid-template-columns: minmax(0, 30rem);
+}
+
+.md-typeset .account-guide-grid figure {
+  margin: 0;
+  text-align: center;
+}
+
+.md-typeset .account-guide-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border: 1px solid var(--nottingham-blue-20);
+  border-radius: 0.2rem;
+  background: #ffffff;
+}
+
+.md-typeset .account-guide-grid figcaption {
+  margin-top: 0.4rem;
+  color: var(--nottingham-blue-80);
+  font-style: normal;
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .account-guide-grid img {
+  border-color: #40566a;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .account-guide-grid figcaption {
+  color: #cfdbe5;
+}
+
 .md-typeset .pe-test-grid figure {
   margin: 0;
   text-align: center;

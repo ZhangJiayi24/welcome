@@ -10,7 +10,7 @@
 | [Outlook 邮箱](https://outlook.office.com) | 接收学校通知，并用于与同学和老师交流。需要学校账号。 |
 | [UNNC AI](https://gpt.nottingham.edu.cn) | 学校提供的生成式 AI 服务，可直接打开，也可经 UNNC Portal 左侧菜单进入。每月包含 **400,000 token** 使用额度，可用于一般问答、英文邮件润色、中英翻译和写作校对等任务。 |
 | [IT Accounts](https://itaccounts.nottingham.ac.uk/) | 激活学校 IT 账号、管理账号信息。2026 级新生从 8 月 11 日起按通知激活。 |
-| [Application Hub](https://oaas.nottingham.edu.cn/#/new-student/login) | 新生个人信息填写、网上预注册、网上选寝、打印新生注册单及延期报到申请。 |
+| [Application Hub](https://oaas.nottingham.edu.cn/#/new-student/login) | 新生个人信息填写、网上选寝、打印新生注册单及延期报到申请。 |
 | [Moodle](https://moodle.nottingham.ac.uk/login/index.php) | 上课使用的学习平台，会显示你所选的课程；老师会在这里上传课件、PPT、习题、coursework 要求等课程资料，部分作业也需要通过 Moodle 提交。论文相似度检查可在页面右上方菜单中选择 **Test Your Text**，也可检查中文内容。 |
 | [NUsearch](https://nusearch.nottingham.edu.cn/primo-explore/search?vid=44NOTCH) | 写论文时查找 sources，以及查询图书馆纸质和电子馆藏。 |
 | [Google Scholar](https://scholar.google.com/) | 写论文时查找 sources、引用信息和相关研究。 |
