@@ -54,6 +54,6 @@
 | 就业指导办公室（CES） | 总机转 8793 | [careers@nottingham.edu.cn](mailto:careers@nottingham.edu.cn) | CareersUNNC；Trent Building 228 |
 | 品牌与传媒办公室 | — | [commsandmarketing@nottingham.edu.cn](mailto:commsandmarketing@nottingham.edu.cn) | — |
 | 商务拓展部（BDO） | 0574-88180016 | — | BDO_UNNC |
-| 小 Upay | 0574-88180900 | — | 宁诺小Upay |
+| 宁波诺丁汉大学后勤事务中心 | 0574-88180900 | — | 宁波诺丁汉大学后勤事务中心 |
 | 后勤事务中心（LAC） | 0574-88180809 | [LAC@nottingham.edu.cn](mailto:LAC@nottingham.edu.cn) | — |
 | 李达三孵化园 | 0574-88180081 | [incubator@nottingham.edu.cn](mailto:incubator@nottingham.edu.cn) | UNNCIncubator |
