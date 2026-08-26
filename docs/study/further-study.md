@@ -40,6 +40,23 @@
 
 宁波诺丁汉大学于 **2025 年**正式获批推荐优秀应届本科毕业生免试攻读研究生名额。目前宁诺的推免比例为 **7%**。
 
+### 2027 届官方文件
+
+申请 2027 届推免时，请先阅读学校通知，再阅读本人所属学院的实施细则。学院细则中的排名方式、材料要求和时间安排仅适用于对应学院。
+
+| 适用范围 | 文件 |
+| --- | --- |
+| 全校 | [宁波诺丁汉大学关于推荐 2027 届优秀本科毕业生免试攻读研究生的通知（中英双语）](../assets/documents/2027-postgraduate-recommendation-university-notice-bilingual.pdf){ .resource-link target="_blank" rel="noopener" } |
+| 理工学院 | [2027 届宁波诺丁汉大学理工学院推荐免试攻读研究生工作实施细则（修正版）](../assets/documents/2027-postgraduate-recommendation-science-engineering-rules.pdf){ .resource-link target="_blank" rel="noopener" } |
+| 商学院 | [2027 届宁波诺丁汉大学商学院推荐免试攻读研究生工作实施细则（修正版）](../assets/documents/2027-postgraduate-recommendation-business-rules.pdf){ .resource-link target="_blank" rel="noopener" } |
+| 人文与社会科学学院 | [2027 届宁波诺丁汉大学人文与社会科学学院推荐免试攻读研究生工作实施细则（修正版）](../assets/documents/2027-postgraduate-recommendation-humanities-social-sciences-rules.pdf){ .resource-link target="_blank" rel="noopener" } |
+
+!!! warning "2027 届校内申请已截止"
+    校级通知规定个人申请截止时间为 **2026 年 8 月 25 日 15:00（北京时间）**。此处保留文件供查阅，后续材料审核和公示安排以学校通知为准。
+
+!!! note "文件优先级"
+    本页其余内容用于帮助理解推免流程。若与 2027 届官方文件不一致，以学校通知及本人所属学院的实施细则为准。
+
 例如某专业有 100 人并分到 7 个名额，正常情况下由排名前 7 名获得；如果第 1 名选择境外申请等其他路线并放弃推免，名额便顺延给第 8 名。名额可以继续依次顺延，但只顺延给满足学校推免最低要求的学生；如果顺延到第 40 名时已经不满足最低要求，就不能再向后顺延。具体排名方式、最低要求和名额分配以当届通知为准。
 
 !!! info "“推荐”和“免试”是两个环节"
