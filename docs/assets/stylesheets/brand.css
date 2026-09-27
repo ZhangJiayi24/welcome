@@ -179,6 +179,22 @@ input {
   height: 52rem;
 }
 
+.pdf-embed.pdf-page-preview {
+  height: auto;
+  aspect-ratio: 1.414 / 1;
+  overflow-y: auto;
+}
+
+.pdf-page-preview > p {
+  margin: 0;
+}
+
+.pdf-page-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h2,
 [data-md-color-scheme="slate"] .md-typeset h3 {
